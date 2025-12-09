@@ -11,6 +11,12 @@ Minimal Ninja:
         pointer-events: none;
         opacity: 0;
       }
+      @media (max-width: 870px) {
+        app-header app-toolbar ha-menu-button,
+        app-header app-toolbar ha-button-menu {
+          display: none !important;
+        }
+      }
   card-mod-sidebar: |
     :host {
       .menu {
