@@ -7,16 +7,6 @@ Minimal Ninja:
         --ha-tab-indicator-color: transparent !important;
         --ha-tab-active-text-color: inherit !important;
       }
-      .toolbar > ha-tab-group {
-        pointer-events: none;
-        opacity: 0;
-      }
-      @media (max-width: 870px) {
-        app-header app-toolbar ha-menu-button,
-        app-header app-toolbar ha-button-menu {
-          display: none !important;
-        }
-      }
   card-mod-sidebar: |
     :host {
       .menu {
