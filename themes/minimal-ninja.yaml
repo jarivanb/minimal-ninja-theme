@@ -7,6 +7,10 @@ Minimal Ninja:
         --ha-tab-indicator-color: transparent !important;
         --ha-tab-active-text-color: inherit !important;
       }
+      .toolbar > ha-tab-group {
+        pointer-events: none;
+        opacity: 0;
+      }
   card-mod-sidebar: |
     :host {
       .menu {
@@ -15,7 +19,7 @@ Minimal Ninja:
     }
 
   # header
-  app-header-background-color: color-mix(in srgb, var(--primary-background-color), transparent 50%)
+  app-header-background-color: transparent
   app-header-edit-background-color: color-mix(in srgb, var(--primary-background-color), transparent 50%)
   app-header-backdrop-filter: blur(6px)
   app-header-text-color: var(--primary-text-color)
@@ -35,9 +39,9 @@ Minimal Ninja:
   ha-card-border-color: none
 
   # color
-  primary-color: "#00A76F"
-  dark-primary-color: "#007867"
-  light-primary-color: "#5BE49B"
+  primary-color: "#15afd0"
+  dark-primary-color: "#15afd0"
+  light-primary-color: "#15afd0"
   accent-color: "#FFAB00"
   divider-color: rgba(145, 158, 171, 0.2)
 
