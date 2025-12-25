@@ -9,6 +9,9 @@ Minimal Ninja:
         --ha-tab-indicator-color: transparent !important;
         --ha-tab-active-text-color: inherit !important;
       }
+      .layout.has-heading {
+        margin-top: 0 !important;
+      }
   card-mod-sidebar: |
     :host {
       .menu {
