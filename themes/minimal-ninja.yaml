@@ -7,6 +7,10 @@ Minimal Ninja:
         --ha-tab-indicator-color: transparent !important;
         --ha-tab-active-text-color: inherit !important;
       }
+      ha-tabs {
+        pointer-events: none;
+        opacity: 0;
+      }
   card-mod-sidebar: |
     :host {
       .menu {
