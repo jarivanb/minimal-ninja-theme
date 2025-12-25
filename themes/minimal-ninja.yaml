@@ -12,7 +12,6 @@ Minimal Ninja:
       
       .layout.has-heading {
         margin-top: 0 !important;
-        top: 0px;
       }
   card-mod-sidebar: |
     :host {
