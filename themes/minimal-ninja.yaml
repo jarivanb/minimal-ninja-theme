@@ -6,7 +6,8 @@ Minimal Ninja:
       ha-tab-group,
       ha-tabs,
       paper-tabs {
-        display: none !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
       }
       ha-tab-group {
         --ha-tab-indicator-color: transparent !important;
