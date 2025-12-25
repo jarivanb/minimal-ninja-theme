@@ -13,6 +13,11 @@ Minimal Ninja:
       .layout.has-heading {
         margin-top: 0 !important;
       }
+
+    hui-view $: |
+      .layout.has-heading {
+        margin-top: 0 !important;
+      }
   card-mod-sidebar: |
     :host {
       .menu {
