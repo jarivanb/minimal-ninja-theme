@@ -3,7 +3,7 @@ Minimal Ninja:
   card-mod-theme: Minimal Ninja
   card-mod-root-yaml: |
     .: |
-      :not(.edit-mode) ha-tab-group {
+      ha-tab-group {
         opacity: 0 !important;
         pointer-events: none !important;
         visibility: hidden !important;
