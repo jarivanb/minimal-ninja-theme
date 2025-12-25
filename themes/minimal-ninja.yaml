@@ -3,9 +3,12 @@ Minimal Ninja:
   card-mod-theme: Minimal Ninja
   card-mod-root-yaml: |
     .: |
-      ha-tab-group {
+      :host(:not([edit-mode])) ha-tab-group {
         opacity: 0 !important;
         pointer-events: none !important;
+        visibility: hidden !important;
+      }
+      ha-tab-group {
         --ha-tab-indicator-color: transparent !important;
         --ha-tab-active-text-color: inherit !important;
       }
