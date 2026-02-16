@@ -3,6 +3,7 @@ Minimal Ninja:
   card-mod-theme: Minimal Ninja
   card-mod-root-yaml: |
     .: |
+      /* Basis header hiding */
       app-header {
         display: none !important;
       }
@@ -14,13 +15,28 @@ Minimal Ninja:
         --header-height: 0 !important;
         padding-top: 0 !important;
       }
-      
+    
+    /* Target hui-root shadow DOM */
     hui-root$: |
-      app-header,
-      app-toolbar,
+      app-header {
+        display: none !important;
+      }
+      app-toolbar {
+        display: none !important;
+      }
       .toolbar {
         display: none !important;
       }
+      [role="toolbar"] {
+        display: none !important;
+      }
+    
+    /* Target ha-tabs */
+    ha-tabs$: |
+      #selectionBar {
+        display: none;
+      }
+      
   card-mod-sidebar: |
     :host {
       .menu {
