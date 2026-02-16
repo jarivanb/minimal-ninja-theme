@@ -3,14 +3,20 @@ Minimal Ninja:
   card-mod-theme: Minimal Ninja
   card-mod-root-yaml: |
     .: |
-      app-header {
+      app-header,
+      .header {
         display: none !important;
       }
       #view {
         min-height: 100vh !important;
-        --header-height: 0 !important;
+        --header-height: 0px !important;
         padding-top: 0 !important;
+        margin-top: 0 !important;
       }
+      hui-root$: |
+        app-toolbar {
+          display: none !important;
+        }
   card-mod-sidebar: |
     :host {
       .menu {
