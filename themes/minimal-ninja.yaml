@@ -3,10 +3,9 @@ Minimal Ninja:
   card-mod-theme: Minimal Ninja
   card-mod-root-yaml: |
     .: |
-      /* Pre-hide header om flicker te verminderen */
-      app-header {
-        opacity: 0 !important;
-        pointer-events: none !important;
+      :not(.edit-mode) .toolbar > ha-tab-group {
+        pointer-events: none;
+        opacity: 0;
       }
       
   card-mod-sidebar: |
