@@ -1,13 +1,6 @@
 Minimal Ninja:
   # card-mod
   card-mod-theme: Minimal Ninja
-  card-mod-root-yaml: |
-    .: |
-      :not(.edit-mode) .toolbar > ha-tab-group {
-        pointer-events: none;
-        opacity: 0;
-      }
-      
   card-mod-sidebar: |
     :host {
       .menu {
