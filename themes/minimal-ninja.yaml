@@ -40,6 +40,8 @@ Minimal Ninja:
   success-color: "#22C55E"
   info-color: "#00B8D9"
 
+  badge-padding: "0px"
+
   modes:
     light:
       # mushroom
