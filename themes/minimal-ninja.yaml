@@ -25,7 +25,7 @@ Minimal Ninja:
 
   # card
   ha-card-border-width: 0
-  ha-card-border-radius: 12px
+  ha-card-border-radius: 28px # 12px
   ha-card-border-color: none
 
   # color
